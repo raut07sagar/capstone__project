@@ -1,0 +1,92 @@
+
+.Navbar{
+  background-color: #24292E;
+  color: white; 
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  z-index: 1;
+}
+.large_menu_container{
+  display: flex;
+}
+
+.Navbar__GithubIcon{
+  font-size: 29px !important;
+  margin-left: 10px;
+}
+
+.Navbar_items_container{
+  display: flex;
+  align-items: center;
+}
+.Navbar_icons_container{
+  margin-right: 10px;
+  display: flex;
+}
+
+.header_search_input{
+  background-color: inherit;
+  border: 1px solid grey;
+  padding: 4px;
+  font-size: 14px;
+  padding-left: 7px;
+  margin-left: 15px;
+  border-radius: 4px;
+  width: 270px;
+  color: grey;
+}
+
+@media screen and (max-width:818px){
+  .header_search_input{
+    width: 220px;
+  }
+}
+
+.github_svg{
+  margin-left: -25px;
+}
+
+.NavbarItem__container{
+  margin-left: 20px;
+}
+
+.Right_Icon{
+  font-size: 20px !important;
+}
+
+.ArrowIcon{
+  font-size: 17px !important;
+  margin-left: -5px !important;
+  margin-bottom: 3px;
+}
+
+.header_profil{
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.toggle_icon{
+  display: none !important;
+}
+
+.Navbar_icons_container .MuiSvgIcon-root.Right_Icon{
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 770px){
+  .toggle_icon{
+    display: block !important;
+  }
+  .large_menu_container{
+    display: none;
+  }
+  .ArrowIcon{
+    display:none !important;
+  }
+}

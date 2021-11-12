@@ -1,38 +1,30 @@
+html {
+  --primaryBackgroundColor: white !important;
+  --primaryTextColor: #6E7677 !important;
+  --primaryTitleColor: #959DA5!important;
+  --primaryButtonColor: #FAFBFC !important;
+  --primaryBorderColor : #EAECEF !important;
+}
+
+html.dark {
+  --primaryBackgroundColor: #0D1117 !important;
+  --primaryTextColor: #6E7677 !important; 
+  --primaryTitleColor: #C9D1D9 !important;
+  --primaryButtonColor: #21262D !important;
+  --primaryBorderColor : #21262D !important;
+}
+
 .App {
-  text-align: center;
+  background: var(--primaryBackgroundColor);
+  height: 2000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (prefers-color-scheme: dark) {
+  html {
+    --primaryBackgroundColor: #0D1117;
+    --primaryTextColor: #6E7677 ; 
+    --primaryTitleColor: #C9D1D9 ;
+    --primaryButtonColor: #21262D;
+    --primaryBorderColor : #0D1117;
   }
 }

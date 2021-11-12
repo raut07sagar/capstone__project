@@ -1,0 +1,16 @@
+.statusbox{
+    display: flex;;
+    flex-direction: column;
+    width: 100%;
+    max-height: 50%;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+.xx{
+    position: absolute;
+    left: 45%;
+    
+}
+img{
+    padding: 0.5rem;
+}

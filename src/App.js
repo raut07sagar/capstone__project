@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import Navbar from "./Componants/navbar/Navbar"
 import './App.css';
+import Body from "./Componants/body/Body"
+import "react-toggle/style.css";
+import Tab from "./Componants/TabComponent/Tab"
+import Body2 from "./Componants/Body2/Body2"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Tab />
+      <Body />
+      <Body2 />
     </div>
   );
 }
