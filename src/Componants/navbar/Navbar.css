@@ -89,4 +89,9 @@
   .ArrowIcon{
     display:none !important;
   }
+}.ArrowIcon{
+margin-top: 0.7rem;
+}
+.Right_Icon{
+  margin-top: 0.7rem;
 }

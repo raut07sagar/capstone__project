@@ -28,3 +28,11 @@ html.dark {
     --primaryBorderColor : #0D1117;
   }
 }
+
+.ui primary button{
+  color: red;
+}
+*{
+  margin: 0;
+  padding: 0;
+}

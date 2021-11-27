@@ -47,7 +47,7 @@ function Body() {
         </div>
         <div className="Body__repos">
           <div className="user_description">
-          <img className="canva" src="https://document-export.canva.com/_SF2Q/DAEuLa_SF2Q/69/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20211111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211111T080810Z&X-Amz-Expires=76998&X-Amz-Signature=d03eeeea7c68626f72e8e2f502ad06b6386117a7abeb102f08900be2cf002c52&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2012%20Nov%202021%2005%3A31%3A28%20GMT"  /> <br/>
+          <img className="canva" src="https://document-export.canva.com/_SF2Q/DAEuLa_SF2Q/69/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20211125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211125T080810Z&X-Amz-Expires=84198&X-Amz-Signature=0bb59b63e4608f492c065630b5860bf96680a74d1e91b9331c53e3de1f7fa1ae&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2026%20Nov%202021%2007%3A31%3A28%20GMT"  /> <br/>
             <div className="user_description_header">
 
                       
