@@ -16,7 +16,9 @@ html.dark {
 
 .App {
   background: var(--primaryBackgroundColor);
-  height: 2000px;
+  height: auto;
+ 
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,4 +37,4 @@ html.dark {
 *{
   margin: 0;
   padding: 0;
-}
+} 

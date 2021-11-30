@@ -1,9 +1,23 @@
 .Body{
     width: 87.5%;
-    margin-right: 10%;
-    
-    margin-left: 2.5%;
+    margin-right: 2%;
+    margin-top:60px;
+    margin-left: 0%;
     display: flex;
+    
+    
+  }
+  .body2_div
+  {
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left:45%;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+  }
+  .class_img
+  {
+    margin:20px;
   }
   .Body__profilInfos{
     width: 35%;
@@ -174,6 +188,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
   }
   
   @media screen and (max-width: 775px){

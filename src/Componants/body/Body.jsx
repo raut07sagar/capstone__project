@@ -2,10 +2,13 @@ import React from 'react'
 import "./Body.css"
 import TwitterIcon from '@material-ui/icons/Twitter';
 import Repo from "../repo/Repo"
+import Tab from "../TabComponent/Tab";
+import Body2 from '../Body2/Body2';
 
-function Body() {
+ function Body() {
   return (
     <>
+      <Tab />
     <div className="Body">
         <div className="Body__profilInfos">
           <div>
@@ -89,12 +92,18 @@ function Body() {
           </div>
         </div>
 
-        
+     
     </div>
-    
+    <div className="body2_div">
+    <img className="class_img" src="https://github-readme-stats.vercel.app/api?username=raut07sagar&show_icons=true&theme=radical" alt="" /> 
+
+
+<img className="class_img" src="https://github-readme-streak-stats.herokuapp.com/?user=raut07sagar&theme=radical" alt="" /> 
+
+<img className="class_img" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raut07sagar&layout=compact&theme=radical&langs_count=6" alt="" /> 
+</div>
 
     </>
   )
 }
-
-export default Body
+export default  Body;
